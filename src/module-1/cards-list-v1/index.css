@@ -15,9 +15,9 @@ body {
 }
 
 .image-container {
-  padding: 31px 80px 34px;
   display: flex;
   justify-content: center;
+  min-height: 340px;
 }
 
 .raiting {
@@ -36,6 +36,10 @@ body {
 .raiting img {
   height: 13px;
   width: 12px;
+}
+
+.picture-fit {
+  object-fit: contain;
 }
 
 .main-container {
@@ -66,7 +70,7 @@ body {
 }
 
 .btn {
-  width: 50%;
+  flex: 1;
   border: none;
   padding-top: 14px;
   padding-bottom: 13px;
