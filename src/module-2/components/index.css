@@ -21,7 +21,7 @@ body {
   display: flex;
   font-size: 14px;
   font-weight: 400;
-  padding: 37px 0 53px;
+  padding: 40px 0 50px;
 }
 
 .right-arrow {
@@ -168,11 +168,10 @@ body {
 /* from v1 card */
 .product-item {
   width: 100%;
-  /* min-width: 300px; */
-  /* max-width: 400px; */
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
   border-radius: 8px;
   overflow: hidden;
+  background-color: #fff;
 }
 
 .info {
@@ -276,7 +275,7 @@ body {
 
 /* end list */
 /* media */
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 1250px) {
   .filter-section {
     display: none;
   }
@@ -292,6 +291,12 @@ body {
   .lower-header {
     display: none;
   }
+  .product-header-result {
+    display: none;
+  }
+  .product-section {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -302,6 +307,9 @@ body {
     display: none;
   }
   .lower-header {
+    display: none;
+  }
+  .product-header-result {
     display: none;
   }
 }
